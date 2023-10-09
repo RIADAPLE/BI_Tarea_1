@@ -674,31 +674,31 @@
     <fields>
       <field>
         <name>AddressLine1</name>
-        <value>NA</value>
+        <value/>
         <mask/>
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
         <name>AddressLine2</name>
-        <value>NA</value>
+        <value/>
         <mask/>
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
         <name>City</name>
-        <value>NA</value>
+        <value/>
         <mask/>
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
         <name>SpatialLocation</name>
-        <value>NA</value>
+        <value/>
         <mask/>
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
         <name>rowguid</name>
-        <value>NA</value>
+        <value/>
         <mask/>
         <set_empty_string>N</set_empty_string>
       </field>

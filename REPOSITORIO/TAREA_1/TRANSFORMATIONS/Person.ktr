@@ -430,20 +430,20 @@
     <created_date>2023/10/08 23:01:36.328</created_date>
     <modified_user>-</modified_user>
     <modified_date>2023/10/08 23:01:36.328</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
   <connection>
-    <name>bi</name>
+    <name>ORACLE_CONNECTION</name>
     <server>localhost</server>
     <type>ORACLE</type>
     <access>Native</access>
     <database>xe</database>
     <port>1521</port>
     <username>system</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce71da9fa6d4</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce108fc0fc8e</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -493,6 +493,21 @@
   <order>
     <hop>
       <from>Microsoft Excel input</from>
+      <to>ID validator</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>ID validator</from>
+      <to>Date validator</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Date validator</from>
+      <to>If MODIFIEDDATE is null</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>If MODIFIEDDATE is null</from>
       <to>Table output</to>
       <enabled>Y</enabled>
     </hop>
@@ -524,7 +539,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name/>
+      <name>C:\REPOSITORIO\SOURCES\Person.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -545,7 +560,7 @@
       </field>
       <field>
         <name>PersonType</name>
-        <type>Integer</type>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -739,14 +754,14 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>bi</connection>
+    <connection>ORACLE_CONNECTION</connection>
     <schema>ODS</schema>
     <table>PERSON</table>
     <commit>1000</commit>
     <truncate>N</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
+    <specify_fields>Y</specify_fields>
     <partitioning_enabled>N</partitioning_enabled>
     <partitioning_field/>
     <partitioning_daily>N</partitioning_daily>
@@ -757,6 +772,58 @@
     <return_keys>N</return_keys>
     <return_field/>
     <fields>
+      <field>
+        <column_name>BUSINESSENTITYID</column_name>
+        <stream_name>BusinessEntityID</stream_name>
+      </field>
+      <field>
+        <column_name>PERSONTYPE</column_name>
+        <stream_name>PersonType</stream_name>
+      </field>
+      <field>
+        <column_name>NAMESTYLE</column_name>
+        <stream_name>NameStyle</stream_name>
+      </field>
+      <field>
+        <column_name>TITLE</column_name>
+        <stream_name>Title</stream_name>
+      </field>
+      <field>
+        <column_name>FIRSTNAME</column_name>
+        <stream_name>FirstName</stream_name>
+      </field>
+      <field>
+        <column_name>MIDDLENAME</column_name>
+        <stream_name>MiddleName</stream_name>
+      </field>
+      <field>
+        <column_name>LASTNAME</column_name>
+        <stream_name>LastName</stream_name>
+      </field>
+      <field>
+        <column_name>SUFFIX</column_name>
+        <stream_name>Suffix</stream_name>
+      </field>
+      <field>
+        <column_name>EMAILPROMOTION</column_name>
+        <stream_name>EmailPromotion</stream_name>
+      </field>
+      <field>
+        <column_name>ADDITIONALCONTACTINFO</column_name>
+        <stream_name>AdditionalContactInfo</stream_name>
+      </field>
+      <field>
+        <column_name>DEMOGRAPHICS</column_name>
+        <stream_name>Demographics</stream_name>
+      </field>
+      <field>
+        <column_name>ROWGUID</column_name>
+        <stream_name>rowguid</stream_name>
+      </field>
+      <field>
+        <column_name>MODIFIEDDATE</column_name>
+        <stream_name>ModifiedDate</stream_name>
+      </field>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -767,7 +834,231 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
+      <xloc>544</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>ID validator</name>
+    <type>Validator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <validate_all>N</validate_all>
+    <concat_errors>N</concat_errors>
+    <concat_separator>|</concat_separator>
+    <validator_field>
+      <name>BusinessEntityID</name>
+      <validation_name>BusinessEntityID</validation_name>
+      <max_length/>
+      <min_length/>
+      <null_allowed>N</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>Y</only_numeric_allowed>
+      <data_type>Number</data_type>
+      <data_type_verified>Y</data_type_verified>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <max_value/>
+      <min_value/>
+      <start_string/>
+      <end_string/>
+      <start_string_not_allowed/>
+      <end_string_not_allowed/>
+      <regular_expression/>
+      <regular_expression_not_allowed/>
+      <error_code/>
+      <error_description/>
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_step/>
+      <sourcing_field/>
+      <allowed_value/>
+    </validator_field>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>240</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Date validator</name>
+    <type>Validator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <validate_all>N</validate_all>
+    <concat_errors>N</concat_errors>
+    <concat_separator>|</concat_separator>
+    <validator_field>
+      <name>ModifiedDate</name>
+      <validation_name>MODIFIEDDATE</validation_name>
+      <max_length/>
+      <min_length/>
+      <null_allowed>Y</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type>Date</data_type>
+      <data_type_verified>Y</data_type_verified>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <max_value/>
+      <min_value/>
+      <start_string/>
+      <end_string/>
+      <start_string_not_allowed/>
+      <end_string_not_allowed/>
+      <regular_expression/>
+      <regular_expression_not_allowed/>
+      <error_code/>
+      <error_description/>
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_step/>
+      <sourcing_field/>
+      <allowed_value/>
+    </validator_field>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>320</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>If MODIFIEDDATE is null</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue/>
+    <replaceAllMask/>
+    <selectFields>Y</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      <field>
+        <name>BusinessEntityID</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>PersonType</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>NameStyle</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>Title</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>FirstName</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>MiddleName</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>LastName</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>Suffix</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>EmailPromotion</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>AdditionalContactInfo</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>Demographics</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>rowguid</name>
+        <value/>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>ModifiedDate</name>
+        <value>01/01/2001</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
