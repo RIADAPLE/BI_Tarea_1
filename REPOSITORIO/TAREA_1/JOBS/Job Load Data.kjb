@@ -11,6 +11,61 @@
   <modified_date>2023/10/09 10:21:18.506</modified_date>
   <parameters>
     </parameters>
+  <connection>
+    <name>ORACLE_CONNECTION</name>
+    <server>localhost</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>xe</database>
+    <port>1521</port>
+    <username>system</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce108fc0fc8e</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>1521</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STRICT_NUMBER_38_INTERPRETATION</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
   <slaveservers>
     </slaveservers>
   <job-log-table>
@@ -304,7 +359,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
+      <xloc>480</xloc>
       <yloc>480</yloc>
       <attributes_kjc/>
     </entry>
@@ -318,11 +373,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>48</yloc>
       <attributes_kjc/>
     </entry>
@@ -336,11 +391,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>624</yloc>
       <attributes_kjc/>
     </entry>
@@ -354,11 +409,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>560</yloc>
       <attributes_kjc/>
     </entry>
@@ -372,11 +427,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>496</yloc>
       <attributes_kjc/>
     </entry>
@@ -390,11 +445,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>432</yloc>
       <attributes_kjc/>
     </entry>
@@ -408,11 +463,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>368</yloc>
       <attributes_kjc/>
     </entry>
@@ -426,11 +481,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>304</yloc>
       <attributes_kjc/>
     </entry>
@@ -444,11 +499,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>240</yloc>
       <attributes_kjc/>
     </entry>
@@ -462,11 +517,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>176</yloc>
       <attributes_kjc/>
     </entry>
@@ -480,11 +535,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>112</yloc>
       <attributes_kjc/>
     </entry>
@@ -498,11 +553,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>688</yloc>
       <attributes_kjc/>
     </entry>
@@ -516,11 +571,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>752</yloc>
       <attributes_kjc/>
     </entry>
@@ -534,11 +589,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>880</yloc>
       <attributes_kjc/>
     </entry>
@@ -552,11 +607,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>944</yloc>
       <attributes_kjc/>
     </entry>
@@ -570,11 +625,11 @@
       <sqlfromfile>F</sqlfromfile>
       <sqlfilename/>
       <sendOneStatement>F</sendOneStatement>
-      <connection/>
+      <connection>ORACLE_CONNECTION</connection>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>768</xloc>
       <yloc>816</yloc>
       <attributes_kjc/>
     </entry>
@@ -596,7 +651,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>240</xloc>
+      <xloc>576</xloc>
       <yloc>480</yloc>
       <attributes_kjc/>
     </entry>
@@ -618,7 +673,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>608</xloc>
+      <xloc>976</xloc>
       <yloc>480</yloc>
       <attributes_kjc/>
     </entry>
@@ -633,8 +688,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1056</xloc>
-      <yloc>832</yloc>
+      <xloc>1376</xloc>
+      <yloc>608</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -648,7 +703,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1120</xloc>
+      <xloc>1728</xloc>
       <yloc>496</yloc>
       <attributes_kjc/>
     </entry>
@@ -661,8 +716,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1056</xloc>
-      <yloc>944</yloc>
+      <xloc>1376</xloc>
+      <yloc>672</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -673,7 +728,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1232</xloc>
+      <xloc>1808</xloc>
       <yloc>496</yloc>
       <attributes_kjc/>
     </entry>
@@ -712,7 +767,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>48</yloc>
       <attributes_kjc/>
     </entry>
@@ -751,7 +806,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>112</yloc>
       <attributes_kjc/>
     </entry>
@@ -790,7 +845,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>240</yloc>
       <attributes_kjc/>
     </entry>
@@ -829,7 +884,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>176</yloc>
       <attributes_kjc/>
     </entry>
@@ -868,7 +923,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>304</yloc>
       <attributes_kjc/>
     </entry>
@@ -907,7 +962,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>368</yloc>
       <attributes_kjc/>
     </entry>
@@ -946,7 +1001,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>496</yloc>
       <attributes_kjc/>
     </entry>
@@ -985,7 +1040,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>432</yloc>
       <attributes_kjc/>
     </entry>
@@ -1024,7 +1079,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>560</yloc>
       <attributes_kjc/>
     </entry>
@@ -1063,7 +1118,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>800</yloc>
       <attributes_kjc/>
     </entry>
@@ -1102,7 +1157,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>752</yloc>
       <attributes_kjc/>
     </entry>
@@ -1141,7 +1196,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>688</yloc>
       <attributes_kjc/>
     </entry>
@@ -1180,7 +1235,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>624</yloc>
       <attributes_kjc/>
     </entry>
@@ -1219,7 +1274,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>944</yloc>
       <attributes_kjc/>
     </entry>
@@ -1258,30 +1313,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
+      <xloc>1168</xloc>
       <yloc>880</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Dummy Success 2</name>
-      <description/>
-      <type>SPECIAL</type>
-      <attributes/>
-      <start>N</start>
-      <dummy>Y</dummy>
-      <repeat>N</repeat>
-      <schedulerType>0</schedulerType>
-      <intervalSeconds>0</intervalSeconds>
-      <intervalMinutes>60</intervalMinutes>
-      <hour>12</hour>
-      <minutes>0</minutes>
-      <weekDay>1</weekDay>
-      <DayOfMonth>1</DayOfMonth>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1040</xloc>
-      <yloc>496</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1302,8 +1335,503 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1056</xloc>
+      <xloc>1376</xloc>
+      <yloc>544</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>CountryRegion.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>48</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 2</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>EMPLOYEEDEPARTMENTHISTORY.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>112</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 3</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>EMPLOYEE.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>176</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 4</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>ProductCategory.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>240</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 5</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>Department.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>304</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 6</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>productSubCategory</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>368</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 7</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>stateprovince.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>432</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 8</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>product.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>496</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 9</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>EmployeePayHistory.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>592</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 10</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>Businessentityaddress</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
       <yloc>656</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 11</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>personphone.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>720</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 12</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>BussinessEntity.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>784</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 13</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>EmailAdress.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>848</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 14</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>Person.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>912</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Create file 15</name>
+      <description/>
+      <type>CREATE_FILE</type>
+      <attributes/>
+      <filename>ADDRESS.txt</filename>
+      <fail_if_file_exists>Y</fail_if_file_exists>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1472</xloc>
+      <yloc>976</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>CountryRegion.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>48</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 2</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>EMPLOYEEDEPARTMENTHISTORY.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>112</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 3</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>EMPLOYEE.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>176</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 4</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>ProductCategory.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>240</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 5</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>Department.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>304</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 6</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>productSubCategory</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>368</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 7</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>stateprovince.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>432</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 8</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>product.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>496</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 9</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>EmployeePayHistory.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>560</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 10</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>Businessentityaddress</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>624</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 11</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>personphone.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>688</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 12</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>BussinessEntity.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>752</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 13</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>EmailAdress.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>816</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 14</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>Person.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>880</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Wait for file 15</name>
+      <description/>
+      <type>WAIT_FOR_FILE</type>
+      <attributes/>
+      <filename>ADDRESS.txt</filename>
+      <maximum_timeout>36</maximum_timeout>
+      <check_cycle_time>2</check_cycle_time>
+      <success_on_timeout>N</success_on_timeout>
+      <file_size_check>N</file_size_check>
+      <add_filename_result>N</add_filename_result>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1616</xloc>
+      <yloc>944</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -1732,150 +2260,6 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>COUNTRYREGION Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>EMPLOYEEDEPARTMENTHISTORY Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>EMPLOYEE Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>PRODUCTCATEGORY Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>DEPARTMENT Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>PRODUCTSUBCATEGORY Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>STATEPROVINCE Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>PRODUCT Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>EMPLOYEEPAYHISTORY Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>BUSINESSENTITYADDRESS Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>PERSONPHONE Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>BUSINESSENTITY Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>EMAILADDRESS Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>ADDRESS Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>PERSON Data</from>
-      <to>Dummy Success 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Dummy Success 2</from>
-      <to>OK</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>Y</unconditional>
-    </hop>
-    <hop>
       <from>Dummy Error</from>
       <to>Error</to>
       <from_nr>0</from_nr>
@@ -2017,6 +2401,276 @@
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>COUNTRYREGION Data</from>
+      <to>Create file</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>EMPLOYEEDEPARTMENTHISTORY Data</from>
+      <to>Create file 2</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>EMPLOYEE Data</from>
+      <to>Create file 3</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>PRODUCTCATEGORY Data</from>
+      <to>Create file 4</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>DEPARTMENT Data</from>
+      <to>Create file 5</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>PRODUCTSUBCATEGORY Data</from>
+      <to>Create file 6</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>STATEPROVINCE Data</from>
+      <to>Create file 7</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>PRODUCT Data</from>
+      <to>Create file 8</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>EMPLOYEEPAYHISTORY Data</from>
+      <to>Create file 9</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>BUSINESSENTITYADDRESS Data</from>
+      <to>Create file 10</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>PERSON Data</from>
+      <to>Create file 15</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>ADDRESS Data</from>
+      <to>Create file 14</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>EMAILADDRESS Data</from>
+      <to>Create file 13</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>BUSINESSENTITY Data</from>
+      <to>Create file 12</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>PERSONPHONE Data</from>
+      <to>Create file 11</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Create file</from>
+      <to>Wait for file</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file</from>
+      <to>Wait for file 2</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 2</from>
+      <to>Wait for file 3</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 3</from>
+      <to>Wait for file 4</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 4</from>
+      <to>Wait for file 5</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 5</from>
+      <to>Wait for file 6</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 6</from>
+      <to>Wait for file 7</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 7</from>
+      <to>Wait for file 8</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 8</from>
+      <to>Wait for file 9</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 9</from>
+      <to>Wait for file 10</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 10</from>
+      <to>Wait for file 11</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 11</from>
+      <to>Wait for file 12</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 12</from>
+      <to>Wait for file 13</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 13</from>
+      <to>Wait for file 14</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Wait for file 15</from>
+      <to>OK</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
   </hops>
